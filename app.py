@@ -10,7 +10,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader
 
 st.sidebar.title("Settings")
-api_key=st.sidebar.text_input("Enter your Groq API Key:",type="password")
+groq_api_key=st.sidebar.text_input("Enter your Groq API Key:",type="password")
 
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 

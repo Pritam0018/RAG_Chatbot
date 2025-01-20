@@ -10,7 +10,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader
 
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-
+##
 llm = ChatGroq(groq_api_key="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", model_name="Llama3-8b-8192")
 
 prompt = ChatPromptTemplate.from_template(

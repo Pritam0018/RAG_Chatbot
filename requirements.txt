@@ -1,0 +1,13 @@
+langchain
+python-dotenv
+langchain_community
+langchain_core
+langchain_groq
+streamlit
+arxiv
+langchain-text-splitters ## splite the data
+# lxml
+langchain_huggingface
+sentence_transformers
+faiss-cpu
+pypdf
